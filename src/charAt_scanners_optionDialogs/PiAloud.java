@@ -13,13 +13,10 @@ public class PiAloud {
 		String pi = "3.14159";
 		// 3. Print out some digits of Pi. The first value is "pi.charAt(0)", the second
 		// is "pi.charAt(1)"
-		System.out.println(pi.charAt(0));
-		System.out.println(pi.charAt(1));
-		System.out.println(pi.charAt(2));
-		System.out.println(pi.charAt(3));
 		// 4. Print ALL the digits of of Pi (hint: use a loop)
 		for (int i = 0; i < 7; i++) {
-		System.out.println(pi.charAt(i));             	
+		System.out.println(pi.charAt(i)); 
+		speak(pi.charAt(i));
 		}
 		
 		// 5. Use the speak() method to speak all the digits of Pi.
